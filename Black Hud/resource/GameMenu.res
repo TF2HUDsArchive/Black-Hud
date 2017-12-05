@@ -1,23 +1,5 @@
 "GameMenu"
 {
-	"CasualButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_multiplayer"
-	}
-	"MvMButton"
-	{
-		"label" "Play MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_multiplayer"
-	}
 	"ServerBrowserButton"
 	{
 		"label"			"Servers"
@@ -45,7 +27,7 @@
 	}
 	"TF2SettingsButton"
 	{
-		"label" 		"#MMenu_AdvOptions"
+		"label" 		"Adv. Options"
 		"command" 		"opentf2options"
 		"subimage" 		"glyph_options"
 	}
