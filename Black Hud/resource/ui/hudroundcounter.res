@@ -46,20 +46,49 @@
 			"image"				"../hud/comp_round_counter_light_blue"
 			"scaleimage"		"1"
 		}
-	}	
+	}
 
-	"Background"
+	"BlueScoreBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"c-36"
+		"ypos"			"0"
+		"wide"			"36"
+		"tall"			"12"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"70 120 160 255"
+
+	}
+	
+	"RedScoreBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c0"
 		"ypos"			"0"
-		"zpos"			"-9999"
-		"wide"			"70"
-		"tall"			"30"
-
-		"backgroundtype"		"2"
+		"wide"			"36"
+		"tall"			"12"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"0 0 0 100"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"180 50 50 255"
+	}
+	
+	"TimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TimerBG"
+		"xpos"			"c-36"
+		"ypos"			"12"
+		"wide"			"72"
+		"tall"			"16"
+		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+
 	}
 }

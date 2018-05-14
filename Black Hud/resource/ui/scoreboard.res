@@ -5,13 +5,9 @@
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"c-320"
-		"xpos_lodef"	"34"
-		"xpos_hidef"	"4"
 		"ypos"			"31"
 		"wide"			"680"
 		"wide_minmode"  "f0"
-		"wide_lodef"	"560"
-		"wide_hidef"	"620"
 		"tall"			"448"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -489,7 +485,32 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"TFFontMedium2"
+		"labelText"		"%mapname%"
+		"textAlignment"	"east"
+		"xpos"			"-180"
+		"xpos_minmode"	"-454"
+		"ypos"			"24"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"236 227 203 255"
+			
+		if_mvm
+		{ 
+			"visible"	"0"
+		}
+	}	
+		
 	"ShadedBar"
 	{
 		"ControlName"		"ImagePanel"
@@ -878,7 +899,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}						
-						
+		
 		"Kills2"
 		{
 			"ControlName"		"CExLabel"
@@ -930,60 +951,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}	
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"TFFontMedium2"
-			"labelText"		"%mapname%"
-			"textAlignment"		"east"
-			"xpos"			"-5"
-			"xpos_lodef"		"105"
-			"ypos"			"4"
-			"ypos_minmode"			"415"
-			"zpos"			"3"
-			"wide"			"0"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"236 227 203 255"
-			
-			  if_mvm
-		    { 
-			"visible"		"1"
-			"xpos"          "-30"
-			"ypos"          "12"
-		    }
-		}	
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"			"TFFontMedium2"
-			"labelText"		"%gametype%"
-			"textAlignment"		"east"
-			"xpos"			"-105"
-			"xpos_lodef"	"0"
-			"ypos"			"16"
-			"ypos_minmode"			"425"
-			"zpos"			"3"
-			"wide"			"0"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"185 177 153 255"
-			
-			  if_mvm
-		    { 
-			"visible"		"1"
-			"xpos"          "-130"
-			"ypos"          "22"
-		    }			
-		}							
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"

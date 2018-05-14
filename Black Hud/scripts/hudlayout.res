@@ -96,9 +96,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-84"
-		"ypos"	"c195"
+		"ypos"	"0"
 		"wide"	"200"
-		"tall"	"160"
+		"tall"	"f0"
 		
 		"blue_active_xpos"			"16"
 		"blue_active_xpos_minmode"	"16"

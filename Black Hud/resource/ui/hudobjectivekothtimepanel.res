@@ -1,6 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
-	
+{
 	"HudKothTimeStatus"
 	{
 		if_match
@@ -15,8 +14,8 @@
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
 		"xpos_minmode"		"0"
-		"ypos"				"0"
-		"ypos_minmode"		"0"
+		"ypos"				"c195"
+		"ypos_minmode"		"c195"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -32,7 +31,10 @@
 		
 		if_match
 		{
-			
+			"xpos"				"27"
+			"xpos_minmode"		"27"
+			"ypos"				"-7"
+			"ypos_minmode"		"-7"
 		}
 		
 		"TimePanelValue"
@@ -62,17 +64,18 @@
 			
 			if_match
 			{
-			
+				"font"			"Font5"
+				"font_minmode"	"Font5"
 			}
-		}	
-		 
+		}
 	}
+	
 	"Box2"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Bar"
 		"xpos"			"17"
-		"ypos"			"35"
+		"ypos"			"c230"
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"2"
@@ -83,6 +86,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"80 80 255 255"
 		"PaintBackgroundType"	"0"
+		
+		if_match
+		{
+			"xpos"		"9999"
+		}
 	}
 
 	"RedTimer"
@@ -91,8 +99,8 @@
 		"fieldName"			"RedTimer"
 		"xpos"				"90"
 		"xpos_minmode"		"90"
-		"ypos"				"0"
-		"ypos_minmode"		"0"
+		"ypos"				"c195"
+		"ypos_minmode"		"c195"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -108,7 +116,10 @@
 		
 		if_match
 		{
-			
+			"xpos"				"62"
+			"xpos_minmode"		"62"
+			"ypos"				"-7"
+			"ypos_minmode"		"-7"
 		}
 		
 		"TimePanelValue"
@@ -138,35 +149,40 @@
 			
 			if_match
 			{
-			
+				"font"			"Font5"
+				"font_minmode"	"Font5"
 			}
-		}
-           
+		}    
 	}
 	"Box"
-	 {
-		    "ControlName"	"ImagePanel"
-		    "fieldName"		"Bar"
-		    "xpos"			"108"
-		    "ypos"			"35"
-		    "zpos"			"1"
-		    "wide"			"45"
-		    "tall"			"2"
-		    "autoResize"	"0"
-		    "pinCorner"		"0"
-		    "visible"		"1"
-		    "enabled"		"1"
-		    "tabPosition"	"0"	
-		    "fillcolor"		"255 80 80 255"
-		    "PaintBackgroundType"	"0"
-        }   		
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Bar"
+		"xpos"			"108"
+		"ypos"			"c230"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"2"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"255 80 80 255"
+		"PaintBackgroundType"	"0"
+		
+		if_match
+		{
+			"xpos"		"9999"
+		}
+	}   		
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"1"
-		"ypos"				"9"
-		"ypos_minmode"		"9"
+		"ypos"				"c204"
+		"ypos_minmode"		"c204"
 		"zpos"				"1"
 		"wide"			"0"
 		"tall"			"0"

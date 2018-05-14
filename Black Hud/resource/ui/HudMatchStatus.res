@@ -275,7 +275,7 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"0"
 		"zpos"				"4"
 		"wide"				"110"
 		"wide_hidef"		"300"
@@ -290,6 +290,13 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Font4"
+		
+		if_match
+		{
+			"xpos"	"c-59"
+			"ypos"	"-7"
+			"zpos"	"5"
+		}
 		
 		"TimePanelValue"
 		{
@@ -310,9 +317,7 @@
 			
 			if_match
 			{
-				"xpos"			"7"
-				"font"			"Font4.5"
-				"ypos"			"3"
+				"font"		"Font4.5"
 			}
 		}	
 	}
